@@ -1,0 +1,29 @@
+material apartment/Diffuse
+{
+  receive_shadows off
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture apartment_diffuse.jpg
+      }
+    }
+  }
+}
+
+material apartment/Specular
+{
+  receive_shadows off
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture apartment_spec.jpg
+      }
+    }
+  }
+}
