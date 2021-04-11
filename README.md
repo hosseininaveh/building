@@ -5,4 +5,7 @@ These files can be used for Moor_For_BIM package. to use the file run the follow
 
 cd ~/.gazebo/models
 
-git clone https://github.com/hosseininaveh/building.git
+git clone https://github.com/hosseininaveh/buildings.git
+
+
+mv buildings/building building
