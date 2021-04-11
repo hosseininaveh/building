@@ -8,4 +8,7 @@ cd ~/.gazebo/models
 git clone https://github.com/hosseininaveh/buildings.git
 
 
-mv buildings/building building
+sudo mv buildings/building building/
+
+
+sudo rm -r buildings
